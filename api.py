@@ -6,7 +6,7 @@ from peft import PeftModel, PeftConfig
 import uvicorn
 
 # 1. Defining constants
-MODEL_PATH = "dora_model/checkpoint-3938"
+MODEL_PATH = "DoRA_adapters"
 BASE_MODEL = "deepvk/deberta-v1-base"
 DEVICE = "cpu"
 
